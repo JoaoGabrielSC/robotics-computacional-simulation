@@ -4,20 +4,20 @@
 
 - Minimal simulation of an omnidirectional robot following a reference trajectory while avoiding a static obstacle using artificial potential fields.
 
-Requirements
+## Requirements
 
-- Python 3.8 or later
+- Python 3.12 or later
 - numpy
 - matplotlib
 
 ## Installation
 
-- Create a virtual environment (recommended) and install dependencies:
+- Create a virtual environment and install dependencies:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install numpy matplotlib
+pip install -r requirements.txt
 ```
 
 ## Running
@@ -27,6 +27,10 @@ pip install numpy matplotlib
 ```bash
 python main.py
 ```
+
+## Output
+
+- Recorded animation: `docs/simulation.gif`
 
 ## Configuration
 
