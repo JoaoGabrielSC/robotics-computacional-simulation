@@ -4,6 +4,10 @@
 
 - Minimal simulation of an omnidirectional robot following a reference trajectory while avoiding a static obstacle using artificial potential fields.
 
+
+## Simulation
+![Simulação do Projeto](docs/simulacao.gif)
+
 ## Requirements
 
 - Python 3.12 or later
@@ -27,10 +31,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
-## Output
-
-- Recorded animation: `docs/simulation.gif`
 
 ## Configuration
 
